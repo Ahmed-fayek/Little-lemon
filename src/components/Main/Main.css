@@ -1,0 +1,46 @@
+.main {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(41, 40, 40, 0.867);
+    flex-wrap: wrap-reverse;
+    background-image: linear-gradient(14deg, rgb(90, 240, 60) 50%, lightblue 50%);
+}
+
+.main .logo-desc {
+    width: 400px;
+
+}
+
+.main .logo-desc .adress {
+    margin-top: -25px;
+}
+
+
+.main .header-logo {
+    width: 300px;
+}
+
+.main .header-logo img {
+    width: 200px;
+    height: 200px;
+}
+
+.main .header-logo img:first-child {
+    transform: translate(10px, 80px);
+    -webkit-transform: translate(10px, 80px);
+    -moz-transform: translate(10px, 80px);
+    -ms-transform: translate(10px, 80px);
+    -o-transform: translate(10px, 80px);
+}
+
+
+
+.main .header-logo img:last-child {
+    transform: translate(100px, -200px);
+    -webkit-transform: translate(100px, -200px);
+    -moz-transform: translate(100px, -200px);
+    -ms-transform: translate(100px, -200px);
+    -o-transform: translate(100px, -200px);
+}

@@ -1,0 +1,35 @@
+.Testimonials {
+    height: 80vh;
+    padding: 50px;
+    background-color: rgb(71, 71, 71);
+}
+
+.Testimonials h1 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.Testimonials .rates {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.Testimonials .rate {
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.445);
+}
+
+.Testimonials .rate .details {
+    display: flex;
+    gap: 20px;
+}
+
+.Testimonials .rate .details img {
+    width: 60px;
+    height: 60px;
+}

@@ -1,0 +1,30 @@
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 50px;
+    color: #fff;
+    background-color: rgb(54, 54, 54);
+}
+
+footer .footer-image img {
+    width: 200px;
+    height: 400p;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    list-style-type: none;
+    margin: 5px 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
